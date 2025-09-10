@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance all</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🕺 BAILE LATINO 💃</h1>
+        </div>
+
+        <div class="navigation">
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="planetas.html" class="nav-link">Estilos</a></li>
+                    <li><a href="misiones.html" class="nav-link">Clases</a></li>
+                    <li><a href="galeria.html" class="nav-link">Sociales</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main-content">
+            <h2>Mejores sociales CDMX</h2>
+
+            <!-- Marquesina con información de la galería -->
+            <div class="marquee-container">
+                <marquee behavior="alternate" direction="left" scrollamount="4">
+                    🌌 Galería actualizada con las últimas imágenes del Telescopio James Webb 📡 Hubble 🔭 Mars Rover 🤖
+                </marquee>
+            </div>
+
+            <!-- Galería principal de imágenes -->
+            <section class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="image-placeholder nebula">
+                        <h3>🌌</h3>
+                        <p>Nebulosa de Orión</p>
+                    </div>
+                    <div class="image-info">
+                        <h4>Nebulosa de Orión</h4>
+                        <p>Una de las nebulosas más brillantes visibles a simple vista</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="image-placeholder galaxy">
+                        <h3>🌀</h3>
+                        <p>Galaxia Andrómeda</p>
+                    </div>
+                    <div class="image-info">
+                        <h4>Galaxia de Andrómeda</h4>
+                        <p>La galaxia espiral más cercana a la Vía Láctea</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="image-placeholder mars-surface">
+                        <h3>🏔️</h3>
+                        <p>Superficie de Marte</p>
+                    </div>
+                    <div class="image-info">
+                        <h4>Paisaje Marciano</h4>
+                        <p>Vista panorámica desde el rover Perseverance</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="image-placeholder saturn">
+                        <h3>🪐</h3>
+                        <p>Anillos de Saturno</p>
+                    </div>
+                    <div class="image-info">
+                        <h4>Saturno y sus Anillos</h4>
+                        <p>Imagen capturada por la sonda Cassini</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="image-placeholder earth">
+                        <h3>🌍</h3>
+                        <p>La Tierra desde el espacio</p>
+                    </div>
+                    <div class="image-info">
+                        <h4>La Canica Azul</h4>
+                        <p>Nuestra hermosa Tierra vista desde la ISS</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="image-placeholder black-hole">
+                        <h3>⚫</h3>
+                        <p>Agujero Negro</p>
+                    </div>
+                    <div class="image-info">
+                        <h4>Agujero Negro M87*</h4>
+                        <p>Primera imagen directa de un agujero negro</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tabla de especificaciones técnicas de imágenes -->
+            <section class="image-specs">
+                <h3>📊 Especificaciones Técnicas de las Imágenes</h3>
+                <table class="specs-table">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Telescopio/Misión</th>
+                            <th>Fecha</th>
+                            <th>Resolución</th>
+                            <th>Filtros</th>
+                            <th>Miniatura</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="highlight">Nebulosa de Orión</td>
+                            <td>Hubble</td>
+                            <td>2006</td>
+                            <td>4096 x 4096</td>
+                            <td>RGB + Infrarrojo</td>
+                            <td><img src="imagenes/orion_thumb.png" alt="Orión" style="width:30px;height:30px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Galaxia Andrómeda</td>
+                            <td>Hubble</td>
+                            <td>2015</td>
+                            <td>8192 x 6144</td>
+                            <td>Visible</td>
+                            <td>🌀</td>
+                        </tr>
+                        <tr class="special-row">
+                            <td>Superficie Marciana</td>
+                            <td>Perseverance</td>
+                            <td>2023</td>
+                            <td>2048 x 1536</td>
+                            <td>Natural Color</td>
+                            <td>🏔️</td>
+                        </tr>
+                        <tr>
+                            <td class="highlight">Anillos de Saturno</td>
+                            <td>Cassini</td>
+                            <td>2017</td>
+                            <td>1024 x 1024</td>
+                            <td>UV + Visible</td>
+                            <td>🪐</td>
+                        </tr>
+                        <tr>
+                            <td>Tierra - Canica Azul</td>
+                            <td>ISS</td>
+                            <td>2022</td>
+                            <td>4000 x 6000</td>
+                            <td>RGB</td>
+                            <td>🌍</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Sección interactiva de filtros -->
+            <section class="filter-section">
+                <h3>🔍 Filtrar Galería por Categoría</h3>
+                <div class="filter-controls">
+                    <button class="filter-btn active" onclick="filterGallery('all')">Todas</button>
+                    <button class="filter-btn" onclick="filterGallery('nebulas')">Nebulosas</button>
+                    <button class="filter-btn" onclick="filterGallery('galaxies')">Galaxias</button>
+                    <button class="filter-btn" onclick="filterGallery('planets')">Planetas</button>
+                    <button class="filter-btn" onclick="filterGallery('missions')">Misiones</button>
+                </div>
+            </section>
+
+            <!-- Simulador de telescopio -->
+            <section class="telescope-simulator">
+                <h3>🔭 Simulador de Observación</h3>
+                <div class="telescope-controls">
+                    <label for="celestialObject">Selecciona un objeto:</label>
+                    <select id="celestialObject">
+                        <option value="moon">Luna</option>
+                        <option value="mars">Marte</option>
+                        <option value="jupiter">Júpiter</option>
+                        <option value="saturn">Saturno</option>
+                        <option value="orion">Nebulosa de Orión</option>
+                    </select>
+                    <button onclick="observeObject()">Observar</button>
+                </div>
+                <div id="telescope-view">
+                    <div class="telescope-screen">
+                        <p>Selecciona un objeto celeste para observar</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Enlaces de navegación y documentos -->
+            <section class="gallery-links">
+                <h3>🔗 Enlaces y Recursos</h3>
+                <ul>
+                    <li><a href="#nebula">Ver más nebulosas</a></li>
+                    <li><a href="misiones.html">Misiones que tomaron estas fotos</a></li>
+                    <li><a href="https://hubblesite.org/gallery" target="_blank">Galería oficial Hubble</a></li>
+                    <li><a href="catalogo_imagenes.pdf">Descargar catálogo completo</a></li>
+                </ul>
+            </section>
+
+            <!-- Navegación entre páginas -->
+            <div class="page-navigation">
+                <a href="misiones.html">← Misiones</a> | 
+                <a href="index.html">Volver al Inicio</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Exploración Espacial - Galería Cósmica</p>
+        </div>
+    </div>
+
+    <script>
+        // Script para filtrar la galería
+        function filterGallery(category) {
+            const items = document.querySelectorAll('.gallery-item');
+            const buttons = document.querySelectorAll('.filter-btn');
+            
+            // Actualizar botones activos
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Filtrar elementos
+            items.forEach((item, index) => {
+                if (category === 'all') {
+                    item.style.display = 'block';
+                    item.style.opacity = '1';
+                } else {
+                    const categories = {
+                        nebulas: [0, 5],
+                        galaxies: [1],
+                        planets: [3, 4],
+                        missions: [2]
+                    };
+                    
+                    if (categories[category] && categories[category].includes(index)) {
+                        item.style.display = 'block';
+                        item.style.opacity = '1';
+                    } else {
+                        item.style.opacity = '0.3';
+                    }
+                }
+            });
+        }
+
+        // Simulador de telescopio
+        function observeObject() {
+            const object = document.getElementById('celestialObject').value;
+            const telescopeView = document.querySelector('.telescope-screen');
+            
+            const observations = {
+                moon: {
+                    emoji: '🌙',
+                    description: 'Vista detallada de la superficie lunar con cráteres y mares lunares'
+                },
+                mars: {
+                    emoji: '🔴',
+                    description: 'El planeta rojo muestra casquetes polares y tormentas de polvo'
+                },
+                jupiter: {
+                    emoji: '🪐',
+                    description: 'Gigante gaseoso con la Gran Mancha Roja visible'
+                },
+                saturn: {
+                    emoji: '🪐',
+                    description: 'Majestuosos anillos compuestos de hielo y roca'
+                },
+                orion: {
+                    emoji: '🌌',
+                    description: 'Nebulosa brillante con regiones de formación estelar activa'
+                }
+            };
+            
+            const obs = observations[object];
+            telescopeView.innerHTML = `
+                <div class="observation-result">
+                    <div class="object-view">${obs.emoji}</div>
+                    <h4>Observando: ${object.charAt(0).toUpperCase() + object.slice(1)}</h4>
+                    <p>${obs.description}</p>
+                    <div class="observation-data">
+                        <small>Coordenadas: ${Math.random().toFixed(2)}°, ${Math.random().toFixed(2)}°</small><br>
+                        <small>Magnitud: ${(Math.random() * 10).toFixed(1)}</small>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Animación de entrada para las imágenes de la galería
+        window.addEventListener('load', function() {
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            galleryItems.forEach((item, index) => {
+                setTimeout(() => {
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0) scale(1)';
+                }, index * 150);
+            });
+        });
+
+        // Efecto hover para las imágenes
+        document.querySelectorAll('.gallery-item').forEach(item => {
+            item.addEventListener('mouseenter', function() {
+                this.querySelector('.image-placeholder').style.transform = 'scale(1.1)';
+            });
+            
+            item.addEventListener('mouseleave', function() {
+                this.querySelector('.image-placeholder').style.transform = 'scale(1)';
+            });
+        });
+    </script>
+
+    <style>
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .gallery-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            opacity: 0;
+            transform: translateY(20px) scale(0.95);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .gallery-item:hover {
+            box-shadow: 0 10px 30px rgba(0, 102, 204, 0.4);
+            transform: translateY(-5px);
+        }
+
+        .image-placeholder {
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 4em;
+            transition: transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .image-placeholder::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            animation: shimmer 3s infinite;
+        }
+
+        .nebula { background: linear-gradient(135deg, #FF6B6B, #4ECDC4); }
+        .galaxy { background: linear-gradient(135deg, #667eea, #764ba2); }
+        .mars-surface { background: linear-gradient(135deg, #CD5C5C, #8B4513); }
+        .saturn { background: linear-gradient(135deg, #DAA520, #B8860B); }
+        .earth { background: linear-gradient(135deg, #4169E1, #00CED1); }
+        .black-hole { background: radial-gradient(circle, #000000, #434343); }
+
+        .image-info {
+            padding: 20px;
+        }
+
+        .image-info h4 {
+            color: #FFD700;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .specs-table th,
+        .specs-table td {
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 12px;
+            text-align: center;
+        }
+
+        .specs-table th {
+            background: rgba(0, 102, 204, 0.8);
+            color: white;
+            font-weight: bold;
+        }
+
+        .filter-section {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .filter-controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .filter-btn {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: #FFD700;
+            color: #000;
+            border-color: #FFD700;
+            transform: translateY(-2px);
+        }
+
+        .telescope-simulator {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 40px 0;
+        }
+
+        .telescope-controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .telescope-controls select,
+        .telescope-controls button {
+            padding: 10px 15px;
+            border-radius: 8px;
+            border: none;
+            font-size: 16px;
+        }
+
+        .telescope-controls button {
+            background: #00CED1;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .telescope-controls button:hover {
+            background: #008B8B;
+        }
+
+        #telescope-view {
+            display: flex;
+            justify-content: center;
+        }
+
+        .telescope-screen {
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, #001122, #000000);
+            border: 5px solid #444;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .telescope-screen::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            border: 2px dashed rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            animation: rotate 10s linear infinite;
+        }
+
+        .observation-result {
+            z-index: 2;
+            position: relative;
+        }
+
+        .object-view {
+            font-size: 3em;
+            margin-bottom: 10px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .observation-data {
+            font-family: 'Courier New', monospace;
+            color: #00FF00;
+            margin-top: 10px;
+        }
+
+        .gallery-links {
+            margin: 40px 0;
+        }
+
+        .gallery-links ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery-links li {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-links li:hover {
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .gallery-links a {
+            color: #87CEEB;
+            text-decoration: none;
+            font-size: 1.1em;
+            display: block;
+        }
+
+        .gallery-links a:hover {
+            color: #FFD700;
+        }
+
+        /* Animaciones */
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .telescope-controls {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .telescope-screen {
+                width: 250px;
+                height: 250px;
+            }
+            
+            .filter-controls {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</body>
+</html>
